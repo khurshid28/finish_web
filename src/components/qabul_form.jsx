@@ -123,7 +123,8 @@ export default function QabulForm({ handleClose ,notify}) {
   }
 
   return (
-    <div class="w-full max-w-lg bg-white rounded-xl px-4 py-8" id="qabul_form">
+    <div className="flex flex-col h-full">
+      <div class="min-h-[600px] w-full  bg-white rounded-xl px-4 py-8" id="qabul_form">
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full  px-3 mb-6 md:mb-0">
           <label
@@ -247,6 +248,7 @@ export default function QabulForm({ handleClose ,notify}) {
           Yuborish
         </button>
       </div>
+    </div>
     </div>
   );
 }
